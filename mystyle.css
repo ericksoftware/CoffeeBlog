@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: arial;
+}
+
+p{
+    line-height: 2;
+}
+
+img{
+    max-width: 100%;
+}
+
+h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-top: 30px;
+}
+
+/* utilities */
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-read-more{
+    display: block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    width: 120px;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.btn-more-information{
+    display: block;
+    background-color: saddlebrown;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.btn-info{
+    /* display: block; */
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    width: 120px;
+    text-align: center;
+    padding: 20px;
+    /* text-transform: uppercase; */
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+/* header */
+.header-init{
+    background-image: url(/img/banner.jpg);
+    background-size: cover;
+    height: 350px;
+    color: white;
+    text-align: center;
+}
+
+/* footer */
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    /* padding: 20px; */
+    padding-bottom: 20px;
+}
+
+.footer-text{
+    font-size: 32px;
+    font-weight:lighter;
+    color: white;
+    text-align: center;
+    /* padding: 20px; */
+    padding-bottom: 12px;
+}
