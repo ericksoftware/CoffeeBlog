@@ -108,10 +108,6 @@ main{
     width: 30%;
 }
 
-.about-container{
-    display: flex;
-    width: 50%;
-}
 
 /* footer */
 .footer{
@@ -120,4 +116,26 @@ main{
     text-align: center;
     /* padding: 20px; */
     padding-bottom: 20px;
+}
+
+.about-container {
+    display: flex;
+    align-items: start ;
+    justify-content: space-between;
+}
+
+.image-container {
+    flex: 1; /* La imagen ocupará el espacio disponible */
+    margin-bottom: 5px;
+}
+
+.image-container img {
+    max-width: 100%; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    display: block;
+}
+
+.text-container {
+    flex: 1;
+    padding-left: 20px; /* Espacio entre la imagen y el texto */
 }
